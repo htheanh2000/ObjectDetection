@@ -1,20 +1,15 @@
 
-Hard Hat Sample - v3 2021-03-02 6:25pm
+Excercise - v2 2021-03-04 10:06pm
 ==============================
 
-This dataset was exported via roboflow.ai on March 2, 2021 at 1:19 PM GMT
+This dataset was exported via roboflow.ai on March 4, 2021 at 3:06 PM GMT
 
-It includes 240 images.
-Workers are annotated in Tensorflow TFRecord (raccoon) format.
+It includes 59 images.
+Excercise are annotated in Tensorflow TFRecord (raccoon) format.
 
 The following pre-processing was applied to each image:
-* Auto-orientation of pixel data (with EXIF-orientation stripping)
-* Resize to 416x416 (Stretch)
+* Grayscale (CRT phosphor)
 
-The following augmentation was applied to create 3 versions of each source image:
-* 50% probability of horizontal flip
-* Randomly crop between 0 and 40 percent of the image
-* Random rotation of between -15 and +15 degrees
-* Random Gaussian blur of between 0 and 1.5 pixels
+No image augmentation techniques were applied.
 
 
